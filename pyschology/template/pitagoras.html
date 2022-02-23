@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Pythagoras</title>
+</head>
+<body onload="Pythagoras()">
+<h1>HYPOTANUSE PYTHAGORAS </h1>
+Input Side X : <input id="x">
+Input Side y : <input id="y">
+    <p><button onclick="Pythagoras()">ENTER</button></p>
+    Side Z is : <input type="text" id="answer">
+
+
+<script type="text/javascript">
+function Pythagoras(x,y){
+var x=document.getElementById("x").value;
+var y=document.getElementById("y").value;
+var result=x**y;
+document.getElementById("answer").value=result;
+}
+</script>
+
+</body>
+</html>
